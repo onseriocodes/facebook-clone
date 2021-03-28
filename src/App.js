@@ -1,16 +1,18 @@
 import React from 'react';
 import './App.css';
 import Header from './Header';
+import Sidebar from './Sidebar';
+import Feed from './Feed';
 
 const App = () => {
   return (
     <div className='app'>
       <Header />
-
-      {/* APP BODY */}
-      {/* Sidebar */}
-      {/* Feed */}
-      {/* Widgets */}
+      <main className='app__body'>
+        <Sidebar />
+        <Feed />
+        {/* Widgets */}
+      </main>
     </div>
   );
 };
