@@ -1,10 +1,16 @@
 import React from 'react';
 import './App.css';
+import Header from './Header';
 
 const App = () => {
   return (
     <div className='app'>
-      <h1>FACEBOOK CLONE</h1>
+      <Header />
+
+      {/* APP BODY */}
+      {/* Sidebar */}
+      {/* Feed */}
+      {/* Widgets */}
     </div>
   );
 };
